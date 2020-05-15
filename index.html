@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amarante|Marck+Script|Poppins&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <title>Pizzeria Raffaele</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="bgcontainer">
+        <div class="background">
+          <div class="head"></div>
+          <!--<div class="logo">
+          <span class="green">Pi</span>zze<span class="red">ria</span><br />
+          <span class="green">Ra</span>ffa<span class="red">ele</span>
+        </div>-->
+          <div class="quote" id="q1">
+            Można nie jeść w ogóle, <br />ale nie można jeść źle. <br />-
+            Salvador Dali
+          </div>
+          <div class="quote" id="q2">
+            Przyjemność brzucha jest podstawą i <br />korzeniem wszelkiego
+            dobra. <br />- Epikur
+          </div>
+        </div>
+      </div>
+
+      <header>
+        <nav>
+          <div class="mobileBar">
+            <div class="bar">
+              <div class="logoContainer">
+                <div class="logo" onclick="tab('home')">
+                  <span class="green">Pi</span>zze<span class="red">ria</span
+                  ><br />
+                  <span class="green">Ra</span>ffa<span class="red">ele</span>
+                </div>
+              </div>
+            </div>
+            <div class="mobileButton">
+              <img src="img/button.png" height="50" />
+            </div>
+          </div>
+
+          <div class="vWidthBar">
+            <div class="menuContainer">
+              <div class="logoContainer">
+                <div class="logo" onclick="tab('home')">
+                  <span class="green">Pi</span>zze<span class="red">ria</span
+                  ><br />
+                  <span class="green">Ra</span>ffa<span class="red">ele</span>
+                </div>
+              </div>
+              <ul class="menuList">
+                <li>
+                  <span class="link" onclick="tab('home')">Strona główna</span>
+                </li>
+                <li>
+                  <span class="link" onclick="tab('delivery')">Dostawa</span>
+                </li>
+                <div class="logoContainer">
+                  <div class="logo" onclick="tab('home')">
+                    <span class="green">Pi</span>zze<span class="red">ria</span
+                    ><br />
+                    <span class="green">Ra</span>ffa<span class="red">ele</span>
+                  </div>
+                </div>
+                <li>
+                  <span class="link" onclick="tab('contact')">Kontakt</span>
+                </li>
+                <li><span class="menuBtn" onclick="menu()">Menu</span></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <div class="mainContainer">
+        <main>
+          <div class="tabContent"></div>
+          <div class="category">
+            <div class="title">Pizza tradycyjna</div>
+            <ul class="list">
+              <li>
+                <img src="img/menu/1.png" alt="MARGHERITA" />
+                <p class="name">1. MARGHERITA</p>
+                <p class="description">
+                  sos z pomidorów z ziołami, dodatkowy ser cheddar
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >16zł/24zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/2.png" alt="CAPRICIOSA" />
+                <p class="name">2. CAPRICIOSA</p>
+                <p class="description">szynka, pieczarki</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >18zł/27zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/3.png" alt="HAVAII" />
+                <p class="name">3. HAVAII</p>
+                <p class="description">szynka, ananas</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/4.png" alt="BOCELLI" />
+                <p class="name">4. BOCELLI</p>
+                <p class="description">boczek, szynka, salami</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/5.png" alt="PAVAROTTI" />
+                <p class="name">5. PAVAROTTI</p>
+                <p class="description">pepperoni, kabanos, świeża papryka</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/6.png" alt="ROMEO" />
+                <p class="name">6. ROMEO</p>
+                <p class="description">
+                  szynka, pieczarki, pomidory koktajlowe, lubczyk
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/7.png" alt="'RARI" />
+                <p class="name">7. 'RARI</p>
+                <p class="description">
+                  salami, suszone pomidory, czarne oliwki, rukola
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/8.png" alt="LAMBO" />
+                <p class="name">8. LAMBO</p>
+                <p class="description">
+                  kebab jagnięcy, szynka, świeża papryka, cebula
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >24zł/36zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/9.png" alt="CARPE DIEM" />
+                <p class="name">9. CARPE DIEM</p>
+                <p class="description">szynka, cebula, cukinia</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/10.png" alt="LA PIZZA NOSTRA" />
+                <p class="name">10. LA PIZZA NOSTRA</p>
+                <p class="description">
+                  bekon, salami, cebula, kukurydza konserwowa
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/11.png" alt="VIVALDI" />
+                <p class="name">11. VIVALDI</p>
+                <p class="description">
+                  4 smaki: kurczak, czarne oliwki, szynka, pieczarki
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="category">
+            <div class="title">Pizza wegetariańska</div>
+            <ul class="list">
+              <li>
+                <img src="img/menu/12.png" alt="PRIMAVERA" />
+                <p class="name">12. PRIMAVERA</p>
+                <p class="description">
+                  brokuły, cukinia, dodatkowy ser parmesan
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/13.png" alt="SIR QUATTRO" />
+                <p class="name">13. SIR QUATTRO</p>
+                <p class="description">
+                  sery: mozzarella, cheddar, parmesan, ricotta
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >18zł/27zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/14.png" alt="DOLCE" />
+                <p class="name">14. DOLCE</p>
+                <p class="description">
+                  słodki sos pomidorowy z ziołami, liście bazylii
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >16zł/24zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/15.png" alt="BANNANA" />
+                <p class="name">15. BANNANA</p>
+                <p class="description">banany, ananas, tofu</p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="category">
+            <div class="title">Pizza na ostro</div>
+            <ul class="list">
+              <li>
+                <img src="img/menu/16.png" alt="SOPRANO" />
+                <p class="name">16. SOPRANO</p>
+                <p class="description">
+                  pepperoni, papryka świeża, sos tabasco
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/17.png" alt="MAFIOSO" />
+                <p class="name">17. MAFIOSO</p>
+                <p class="description">
+                  pepperoni, papryka jalapeno, sos tabasco
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >20zł/30zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/18.png" alt="VESUVIO" />
+                <p class="name">18. VESUVIO</p>
+                <p class="description">
+                  szynka, papryka świeża, papryka jalapeno, sos tabasco
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+              <li>
+                <img src="img/menu/19.png" alt="VENDETTA" />
+                <p class="name">19. VENDETTA</p>
+                <p class="description">
+                  pepperoni, papryka piri piri, sos tabasco, pieprz cayenne
+                </p>
+                <span class="price" title="mała (28cm)/duża (42cm)"
+                  >22zł/33zł</span
+                >
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="logo" onclick="tab('home')">
+          <span class="green">Pi</span>zze<span class="red">ria</span><br />
+          <span class="green">Ra</span>ffa<span class="red">ele</span>
+        </div>
+        <div>
+          <a href="http://twitter.com" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="http://facebook.pl" target="_blank"
+            ><i class="fa fa-facebook-f"></i
+          ></a>
+        </div>
+        Poczuj smak prawdziwej, włoskiej pizzy, gdziekolwiek jesteś.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
