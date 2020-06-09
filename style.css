@@ -172,6 +172,10 @@ header {
   padding: 27px 20px;
 }
 
+.desktop {
+  display: none;
+}
+
 .link:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -228,9 +232,18 @@ main {
   max-width: 460px;
 }
 
+.home .left span {
+  text-align: center !important;
+}
+
 .home .right {
   margin: auto auto;
   margin-top: 40px;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
 }
 
 .home .logo {
@@ -463,6 +476,14 @@ footer i {
 
   .menuList > li {
     padding: 20px 0;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
   }
 
   .list {
