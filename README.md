@@ -1,6 +1,6 @@
 # pizzeria-raffaele
 
-Pizzeria Raffaele is a personal project which served testing my abilities to design and build from scratch a simple and responsive web application which could simulate an actual site of a restaurant. My main concearn was creating responsive menus (both navigation and restaurant) in order to practice using media queries.
+Pizzeria Raffaele is a personal project which main purpose was to design and build from scratch a simple and responsive web application which could simulate a page of some actual restaurant. My main concearn was to create responsive menus (both navigation and restaurant) in order to practice using media queries.
 
 ## Built with:
 HTML i CSS (flex-box, grid, media queries)
