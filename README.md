@@ -15,5 +15,5 @@ Font awesome<br/>
 The most significant content on the page is pizza menu divided into rolled categories. There are subpages with information required to place an order loaded with AJAX. Subpages can be switched thanks to navigation menu which is rolled or static depending on viewport width.
 
 ## Status:
-The project was recognized as completed some time ago but I want to refactor it a bit in the near future. 
+The project was recognized as completed some time ago but I want to refactor it a bit in the near future. <br />
 (10.03.2021) I've just started to rebuild the page using React.js and styled-components library.
