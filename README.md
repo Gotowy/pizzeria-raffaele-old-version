@@ -16,4 +16,4 @@ The most significant content on the page is pizza menu divided into rolled categ
 
 ## Status:
 The project was recognized as completed some time ago but I want to refactor it a bit in the near future. <br />
-(10.03.2021) I've just started to rebuild the page using React.js and styled-components library.
+(10.03.2021) Even though my primary goal was to build the page using Vanilla JavaScript, I've just started to rebuild it using React.js and styled-components libraries.
