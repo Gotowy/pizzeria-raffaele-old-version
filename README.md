@@ -4,7 +4,7 @@ Pizzeria Raffaele is my first personal project where main purpose was to design 
 
 ## Built with:
 
-HTML i CSS (flex-box, grid, media queries)<br/>
+HTML & CSS (flex-box, grid, media queries)<br/>
 JavaScript<br/>
 AJAX<br/>
 Google fonts<br/>
@@ -16,4 +16,4 @@ The most significant content on the page is pizza menu divided into rolled categ
 
 ## Status:
 The project was recognized as completed some time ago but I want to refactor it a bit in the near future. <br />
-(10.03.2021) Even though my primary goal was to build the page using Vanilla JavaScript, I've just started to rebuild it using React.js and styled-components libraries.
+(10.03.2021) Even though my primary goal was to build the page using Vanilla JavaScript, I've just started to rebuild it using React.js and styled-components library.
